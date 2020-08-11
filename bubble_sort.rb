@@ -1,6 +1,3 @@
-# rubocop:disable Metrics/MethodLength
-# frozen_string_literal: true
-
 def bubble_sort(list)
   sorted = false
   passes = 1
@@ -8,6 +5,7 @@ def bubble_sort(list)
     sorted = true
     (0...list.length - passes).each do |i|
       next unless list[i] > list[i + 1]
+
       sorted = false
       temp = list[i]
       list[i] = list[i + 1]
@@ -17,5 +15,5 @@ def bubble_sort(list)
   end
   list
 end
-# rubocop:enable Metrics/MethodLength
+
 p bubble_sort([78, 4, 3, 2, 2, 0])
