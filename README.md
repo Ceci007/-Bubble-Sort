@@ -2,23 +2,22 @@
 
 # Bubble Sort
 
-> In this project we solve the bubble sort algorithm in Ruby taking our best approach.
-
+> This is an implementation of the bubble sort algorithm using the Ruby programming language.
 
 
 ## Built With
 
-- Ruby
+- Ruby -v2.7.0p0
 
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these steps.
 
 ### Prerequisites
 
-- Code Editor
-- Teminal to test
+- Ruby -v2.7.0p0
+
 
 ### Setup
 
@@ -27,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-- Personal Project - Bubble sort algorithm
+- Personal Project - Solving the Bubble sort algorithm using Ruby in the best approach in our opinion . 
 
 ## Authors
 
